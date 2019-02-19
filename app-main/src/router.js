@@ -9,7 +9,7 @@ export default new Router({
       path: '/',
       name: 'home',
       component: () => {
-          return loadScript('./subapp-bundle.js')
+          return loadScript('../../app-sub/dist/subapp-bundle.js')
           .then(() => {
               return SubappLib.Home
           })
