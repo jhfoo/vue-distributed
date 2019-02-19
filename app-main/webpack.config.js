@@ -1,4 +1,5 @@
 const path = require('path')
+const webpack = require('webpack');
 const {
     VueLoaderPlugin
 } = require('vue-loader')
@@ -15,6 +16,7 @@ module.exports = {
         subapplib: 'SubappLib'
     },
     module: {
+        noParse: /\/native-require.js$/,
         rules: [
         //     // {
         //     //     test: /\.js$/,
@@ -30,6 +32,9 @@ module.exports = {
         ]
     },
     plugins: [
-        new VueLoaderPlugin()
+        new VueLoaderPlugin(),
+        new webpack.IgnorePlugin({
+            resourceRegExp: /subapp-bundle/
+        })
     ]
 }

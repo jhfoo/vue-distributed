@@ -1,13 +1,13 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("CoreLib"), require("SubappLib"));
+		module.exports = factory(require("CoreLib"));
 	else if(typeof define === 'function' && define.amd)
-		define(["CoreLib", "SubappLib"], factory);
+		define(["CoreLib"], factory);
 	else {
-		var a = typeof exports === 'object' ? factory(require("CoreLib"), require("SubappLib")) : factory(root["CoreLib"], root["SubappLib"]);
+		var a = typeof exports === 'object' ? factory(require("CoreLib")) : factory(root["CoreLib"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(window, function(__WEBPACK_EXTERNAL_MODULE_corelib__, __WEBPACK_EXTERNAL_MODULE_subapplib__) {
+})(window, function(__WEBPACK_EXTERNAL_MODULE_corelib__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -176,7 +176,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var core
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var corelib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! corelib */ \"corelib\");\n/* harmony import */ var corelib__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(corelib__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-router */ \"./node_modules/vue-router/dist/vue-router.esm.js\");\n/* harmony import */ var subapplib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! subapplib */ \"subapplib\");\n/* harmony import */ var subapplib__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(subapplib__WEBPACK_IMPORTED_MODULE_2__);\n\r\n\r\n\r\n\r\ncorelib__WEBPACK_IMPORTED_MODULE_0__[\"Vue\"].use(vue_router__WEBPACK_IMPORTED_MODULE_1__[\"default\"])\r\n\r\n/* harmony default export */ __webpack_exports__[\"default\"] = (new vue_router__WEBPACK_IMPORTED_MODULE_1__[\"default\"]({\r\n  routes: [\r\n    {\r\n      path: '/',\r\n      name: 'home',\r\n      component: subapplib__WEBPACK_IMPORTED_MODULE_2__[\"Home\"]\r\n    }\r\n  ]\r\n}));\r\n\n\n//# sourceURL=webpack:///./src/router.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var corelib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! corelib */ \"corelib\");\n/* harmony import */ var corelib__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(corelib__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-router */ \"./node_modules/vue-router/dist/vue-router.esm.js\");\n\r\n\r\n\r\ncorelib__WEBPACK_IMPORTED_MODULE_0__[\"Vue\"].use(vue_router__WEBPACK_IMPORTED_MODULE_1__[\"default\"])\r\n\r\n/* harmony default export */ __webpack_exports__[\"default\"] = (new vue_router__WEBPACK_IMPORTED_MODULE_1__[\"default\"]({\r\n  routes: [\r\n    {\r\n      path: '/',\r\n      name: 'home',\r\n      component: () => {\r\n          return loadScript('./subapp-bundle.js')\r\n          .then(() => {\r\n              return SubappLib.Home\r\n          })\r\n      }\r\n    }\r\n  ]\r\n}));\r\n\n\n//# sourceURL=webpack:///./src/router.js?");
 
 /***/ }),
 
@@ -188,17 +188,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var core
 /***/ (function(module, exports) {
 
 eval("module.exports = __WEBPACK_EXTERNAL_MODULE_corelib__;\n\n//# sourceURL=webpack:///external_%22CoreLib%22?");
-
-/***/ }),
-
-/***/ "subapplib":
-/*!****************************!*\
-  !*** external "SubappLib" ***!
-  \****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("module.exports = __WEBPACK_EXTERNAL_MODULE_subapplib__;\n\n//# sourceURL=webpack:///external_%22SubappLib%22?");
 
 /***/ })
 
