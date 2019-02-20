@@ -19,5 +19,11 @@ This code uses Vue and Webpack to demonstrate how code can be written by above t
 
 Expectation: code from various bundles are rendered on the browser.
 
+## TODO
+- Simplify/ dumbify index.html 
+- Demonstrate dynamic route registration
 
-
+## References
+- [A Beginner’s Guide to Webpack 4 and Module Bundling](https://www.sitepoint.com/beginners-guide-webpack-module-bundling/)
+- [Webpack 4 Tutorial: from 0 Conf to Production Mode](https://www.valentinog.com/blog/webpack-tutorial/)
+- [Vue.js and Webpack 4 From Scratch, Part 1](https://itnext.io/vuejs-and-webpack-4-from-scratch-part-1-94c9c28a534a)

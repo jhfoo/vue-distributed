@@ -11,7 +11,7 @@ module.exports = {
         libraryTarget: 'umd'
     },
     externals: {
-        // corelib: 'CoreLib'
+        corelib: 'CoreLib'
     },
     module: {
         rules: [
