@@ -22,6 +22,7 @@ Expectation: code from various bundles are rendered on the browser.
 ## TODO
 - Simplify/ dumbify index.html 
 - Demonstrate dynamic route registration
+- ~~Integration with Vuetify~~
 
 ## References
 - [A Beginner’s Guide to Webpack 4 and Module Bundling](https://www.sitepoint.com/beginners-guide-webpack-module-bundling/)
