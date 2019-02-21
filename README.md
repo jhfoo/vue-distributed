@@ -23,7 +23,11 @@ Expectation: code from various bundles are rendered on the browser.
 - Simplify/ dumbify index.html 
 - Dynamic route registration
 - ~~Integration with Vuetify~~
-- Hot loading
+- ~~Hot loading~~
+
+## Notes
+- HMR works only on the codes Webpack is actively monitoring and rebuilding. How can HMR work for teams working on page bundles?
+- index.html explicitly loads core-bundle.js because webpack-dev-server auto-injects the 'active' bundle (whichever Webpack is monitoring) at the end of the <BODY> tag. Room for more simplification here.
 
 ## References
 - [A Beginner’s Guide to Webpack 4 and Module Bundling](https://www.sitepoint.com/beginners-guide-webpack-module-bundling/)
