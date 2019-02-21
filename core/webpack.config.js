@@ -6,7 +6,7 @@ const path = require('path')
 module.exports = {
     output: {
         path: './dist',
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, '../app-main/dist'),
         filename: 'core-bundle.js',
         libraryTarget: 'umd'
     },
@@ -22,14 +22,14 @@ module.exports = {
                     'css-loader',
                     'stylus-loader'
                 ]
+            },
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: "babel-loader"
+                }
             }
-            //     // {
-            //     //     test: /\.js$/,
-            //     //     exclude: /node_modules/,
-            //     //     use: {
-            //     //         loader: "babel-loader"
-            //     //     }
-            //     // },
             // {
             //     test: /\.vue$/,
             //     use: 'vue-loader'

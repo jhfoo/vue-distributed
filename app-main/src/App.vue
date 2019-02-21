@@ -1,8 +1,17 @@
 <template>
     <v-app>
-            App block using module defined in core-bundle: {{today}}
-            <v-btn>Button</v-btn>
-            <router-view></router-view>
+        <v-container>
+            <v-layout>
+                <v-flex xs4>
+                    App block using module defined in core-bundle: {{today}}<br/>
+                    Yay! HMR works!
+                    <v-btn>Button</v-btn>
+                </v-flex>
+                <v-flex xs8>
+                    <router-view></router-view>
+                </v-flex>
+            </v-layout>
+        </v-container>
     </v-app>
 </template>
 

@@ -1,7 +1,4 @@
-import { Vue } from 'corelib'
 import Router from 'vue-router'
-
-Vue.use(Router)
 
 export default new Router({
   routes: [
@@ -9,7 +6,8 @@ export default new Router({
       path: '/',
       name: 'home',
       component: () => {
-          return loadScript('../../app-sub/dist/subapp-bundle.js')
+          console.log('Loading subapp')
+          return loadScript('/subapp-bundle.js')
           .then(() => {
               return SubappLib.Home
           })

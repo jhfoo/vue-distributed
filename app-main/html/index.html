@@ -7,13 +7,7 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons' rel="stylesheet">
-    <!--
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    -->
-</head>
-
-<body>
-    <div id="app"></div>
+    <script src="./core-bundle.js"></script>
     <script>
         function loadScript(url) {
             return new Promise((resolve, reject) => {
@@ -30,18 +24,14 @@
                 document.body.appendChild(el)
             })
         }
-        loadScript('../../core/dist/core-bundle.js')
-        .then((resp) => {
-            console.log('Loaded #1')
-            return loadScript('./app-bundle.js')
-        })
-        .then((resp) => {
-            console.log('Loaded #2')
-            // return loadScript('./app-bundle.js')
-        })
-        .then((resp) => {
-            console.log('Loaded #3')
-        })
-</script>
+    </script>
+    <!--
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    -->
+</head>
+
+<body>
+    <div id="app"></div>
 </body>
+
 </html>

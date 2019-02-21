@@ -6,7 +6,7 @@ const {
 module.exports = {
     output: {
         path: './dist',
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, '../app-main/dist'),
         filename: 'subapp-bundle.js',
         libraryTarget: 'umd'
     },
