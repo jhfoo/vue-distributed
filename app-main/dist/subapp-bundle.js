@@ -96,6 +96,18 @@ return /******/ (function(modules) { // webpackBootstrap
 /************************************************************************/
 /******/ ({
 
+/***/ "./node_modules/vue-loader/lib/index.js?!./src/views/AnotherSubpage.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib??vue-loader-options!./src/views/AnotherSubpage.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n//\n//\n//\n//\n//\n//\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n    name: 'app',\n    data: () => {\n        return {\n\n        }\n    },\n    computed: {\n    }\n});\n\n\n//# sourceURL=webpack:///./src/views/AnotherSubpage.vue?./node_modules/vue-loader/lib??vue-loader-options");
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/index.js?!./src/views/SubIndex.vue?vue&type=script&lang=js&":
 /*!***********************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib??vue-loader-options!./src/views/SubIndex.vue?vue&type=script&lang=js& ***!
@@ -104,7 +116,19 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var corelib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! corelib */ \"corelib\");\n/* harmony import */ var corelib__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(corelib__WEBPACK_IMPORTED_MODULE_0__);\n//\n//\n//\n//\n//\n//\n\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n    name: 'app',\n    data: () => {\n        return {\n\n        }\n    },\n    computed: {\n        today: function () {\n            return Object(corelib__WEBPACK_IMPORTED_MODULE_0__[\"dayjs\"])()\n        }\n    }\n});\n\n\n//# sourceURL=webpack:///./src/views/SubIndex.vue?./node_modules/vue-loader/lib??vue-loader-options");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var corelib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! corelib */ \"corelib\");\n/* harmony import */ var corelib__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(corelib__WEBPACK_IMPORTED_MODULE_0__);\n//\n//\n//\n//\n//\n//\n//\n\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n    name: 'app',\n    data: () => {\n        return {\n\n        }\n    },\n    computed: {\n        today: function () {\n            return Object(corelib__WEBPACK_IMPORTED_MODULE_0__[\"dayjs\"])()\n        }\n    }\n});\n\n\n//# sourceURL=webpack:///./src/views/SubIndex.vue?./node_modules/vue-loader/lib??vue-loader-options");
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/views/AnotherSubpage.vue?vue&type=template&id=7e09f9f4&":
+/*!***************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./src/views/AnotherSubpage.vue?vue&type=template&id=7e09f9f4& ***!
+  \***************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"div\", [_vm._v(\"\\n    This is another page in app-sub\\n\")])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./src/views/AnotherSubpage.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options");
 
 /***/ }),
 
@@ -116,7 +140,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var core
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"div\", [\n    _vm._v(\n      \"\\n    This is the sub app coded in app-sub/SubIndex.vue (\" +\n        _vm._s(_vm.today) +\n        \")\\n\"\n    )\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./src/views/SubIndex.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"div\",\n    [\n      _vm._v(\n        \"\\n    This is the sub app coded in app-sub/SubIndex.vue (\" +\n          _vm._s(_vm.today) +\n          \")\"\n      ),\n      _c(\"br\"),\n      _vm._v(\" \"),\n      _c(\"router-link\", { attrs: { to: { name: \"AnotherSubpage\" } } }, [\n        _vm._v(\"Next page\")\n      ])\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack:///./src/views/SubIndex.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options");
 
 /***/ }),
 
@@ -132,6 +156,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
+/***/ "./src/RegisterRoutes.js":
+/*!*******************************!*\
+  !*** ./src/RegisterRoutes.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return RegisterRoutes; });\n/* harmony import */ var _views_SubIndex_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./views/SubIndex.vue */ \"./src/views/SubIndex.vue\");\n/* harmony import */ var _views_AnotherSubpage_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./views/AnotherSubpage.vue */ \"./src/views/AnotherSubpage.vue\");\n\r\n\r\n\r\nfunction RegisterRoutes(router) {\r\n    router.addRoutes([{\r\n            path: '/subapp',\r\n            name: 'SubHome',\r\n            component: _views_SubIndex_vue__WEBPACK_IMPORTED_MODULE_0__[\"default\"]\r\n        },\r\n        {\r\n            path: '/subapp/page2',\r\n            name: 'AnotherSubpage',\r\n            component: _views_AnotherSubpage_vue__WEBPACK_IMPORTED_MODULE_1__[\"default\"]\r\n        }\r\n    ])\r\n    console.log('RegisterRoutes called')\r\n    return 'SubHome'\r\n}\n\n//# sourceURL=webpack:///./src/RegisterRoutes.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -140,7 +176,43 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"SubappLib\", function() { return SubappLib; });\n/* harmony import */ var _views_SubIndex_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./views/SubIndex.vue */ \"./src/views/SubIndex.vue\");\n\r\n\r\nconst SubappLib = {\r\n    Home: _views_SubIndex_vue__WEBPACK_IMPORTED_MODULE_0__[\"default\"]\r\n};\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"SubappLib\", function() { return SubappLib; });\n/* harmony import */ var _views_SubIndex_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./views/SubIndex.vue */ \"./src/views/SubIndex.vue\");\n/* harmony import */ var _RegisterRoutes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./RegisterRoutes */ \"./src/RegisterRoutes.js\");\n\r\n\r\n\r\nconst SubappLib = {\r\n    Home: _views_SubIndex_vue__WEBPACK_IMPORTED_MODULE_0__[\"default\"], RegisterRoutes: _RegisterRoutes__WEBPACK_IMPORTED_MODULE_1__[\"default\"]\r\n};\n\n//# sourceURL=webpack:///./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/views/AnotherSubpage.vue":
+/*!**************************************!*\
+  !*** ./src/views/AnotherSubpage.vue ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _AnotherSubpage_vue_vue_type_template_id_7e09f9f4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AnotherSubpage.vue?vue&type=template&id=7e09f9f4& */ \"./src/views/AnotherSubpage.vue?vue&type=template&id=7e09f9f4&\");\n/* harmony import */ var _AnotherSubpage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AnotherSubpage.vue?vue&type=script&lang=js& */ \"./src/views/AnotherSubpage.vue?vue&type=script&lang=js&\");\n/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(\n  _AnotherSubpage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _AnotherSubpage_vue_vue_type_template_id_7e09f9f4___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _AnotherSubpage_vue_vue_type_template_id_7e09f9f4___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"src/views/AnotherSubpage.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=webpack:///./src/views/AnotherSubpage.vue?");
+
+/***/ }),
+
+/***/ "./src/views/AnotherSubpage.vue?vue&type=script&lang=js&":
+/*!***************************************************************!*\
+  !*** ./src/views/AnotherSubpage.vue?vue&type=script&lang=js& ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_vue_loader_lib_index_js_vue_loader_options_AnotherSubpage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/vue-loader/lib??vue-loader-options!./AnotherSubpage.vue?vue&type=script&lang=js& */ \"./node_modules/vue-loader/lib/index.js?!./src/views/AnotherSubpage.vue?vue&type=script&lang=js&\");\n/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__[\"default\"] = (_node_modules_vue_loader_lib_index_js_vue_loader_options_AnotherSubpage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[\"default\"]); \n\n//# sourceURL=webpack:///./src/views/AnotherSubpage.vue?");
+
+/***/ }),
+
+/***/ "./src/views/AnotherSubpage.vue?vue&type=template&id=7e09f9f4&":
+/*!*********************************************************************!*\
+  !*** ./src/views/AnotherSubpage.vue?vue&type=template&id=7e09f9f4& ***!
+  \*********************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AnotherSubpage_vue_vue_type_template_id_7e09f9f4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib??vue-loader-options!./AnotherSubpage.vue?vue&type=template&id=7e09f9f4& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./src/views/AnotherSubpage.vue?vue&type=template&id=7e09f9f4&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AnotherSubpage_vue_vue_type_template_id_7e09f9f4___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AnotherSubpage_vue_vue_type_template_id_7e09f9f4___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n\n\n//# sourceURL=webpack:///./src/views/AnotherSubpage.vue?");
 
 /***/ }),
 

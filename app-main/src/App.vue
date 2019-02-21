@@ -5,7 +5,7 @@
                 <v-flex xs4>
                     App block using module defined in core-bundle: {{today}}<br/>
                     Yay! HMR works!
-                    <v-btn>Button</v-btn>
+                    <v-btn @click="onSubapp" color="primary">Button</v-btn>
                 </v-flex>
                 <v-flex xs8>
                     <router-view></router-view>
@@ -30,6 +30,11 @@
         computed: {
             today: function () {
                 return dayjs()
+            }
+        },
+        methods: {
+            onSubapp: function() {
+                this.$router.replace('/sub/aaa')
             }
         }
     }
