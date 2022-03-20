@@ -1,0 +1,23 @@
+{
+  "name": "vue-distributed",
+  "version": "1.0.0",
+  "description": "Demonstrates how different Vue teams can work independently while building on the same app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhfoo/vue-distributed.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhfoo/vue-distributed/issues"
+  },
+  "homepage": "https://github.com/jhfoo/vue-distributed#readme",
+  "devDependencies": {
+    "@vue/cli": "^5.0.3"
+  }
+}
